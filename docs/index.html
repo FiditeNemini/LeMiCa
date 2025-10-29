@@ -44,6 +44,21 @@
       });
     }
 </script>
+<script>
+    var img = document.getElementById("imageToFullscreen");
+    img.addEventListener("click", () => {
+      if (!document.fullscreenElement) {
+        // 进入全屏
+        img.requestFullscreen().catch(err => {
+          console.error(`无法进入全屏模式: ${err.message}`);
+        });
+      } else {
+        // 退出全屏
+        document.exitFullscreen();
+      }
+    });
+  </script>
+
   <!--  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script> -->
   <script>
   window.MathJax = {
@@ -61,66 +76,6 @@
     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
   </script>
 </head>
-
-<style>
-  @import url('https://fonts.cdnfonts.com/css/menlo');
-
-  .video-table td, .video-table th {
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 4px;
-    padding-right: 4px;
-    font-weight: normal;
-  }
-  .first-col {
-    width: 7%;
-    vertical-align: middle;
-  }
-  .other-col {
-    width: 31%;
-  }
-  body {
-    font-family: "Lato", sans-serif;
-    font-size: 1.1em;
-  }
-  .title.is-3 {
-    font-weight: 900;
-    font-size: 2.0rem;
-  }
-  .title.is-4 {
-    font-weight: 700;
-    font-size: 1.7rem;
-  }
-  .custom-emoji {
-    width: 1em;
-    height: 1em;
-    display: inline-block;
-    background-image: url('./static/images/lemica_icon.png'); /* 替换为你的图标路径 */
-    background-size: cover;
-    vertical-align: middle;
-    line-height: 1;
-}
-  .label-column {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;  /* 平均分布 + 自动留白 */
-    align-items: center;
-    min-width: 100px;
-    font-weight: bold;
-    font-size: 1.1em;
-    color: #333;
-  }
-
-  .label-item {
-    display: flex;
-    align-items: center;  /* 垂直居中文字 */
-    justify-content: center; /* 水平居中 */
-    height: 33.33%;  /* 每个占整体1/3高度 */
-    width: 100%;
-  }
-
-</style>
-
 
 <body>
 
@@ -604,12 +559,73 @@
       <img 
         src="./static/images/Qwen-Image.jpg" 
         alt="Qwen-Image visual result" 
+        id="imageToFullscreen"
         style="width:100%;height:auto;border-radius:6px;display:block;"
       />
     </div>
   </div>
 </section>
 
+<script>
+  (function () {
+    function $(sel) { return document.querySelector(sel); }
+
+    function isFullscreen() {
+      return document.fullscreenElement
+        || document.webkitFullscreenElement
+        || document.mozFullScreenElement
+        || document.msFullscreenElement;
+    }
+
+    function enterFullscreen(el) {
+      const rfs = el.requestFullscreen
+        || el.webkitRequestFullscreen
+        || el.mozRequestFullScreen
+        || el.msRequestFullscreen;
+      if (rfs) return rfs.call(el);
+      return Promise.reject(new Error('Fullscreen API not supported'));
+    }
+
+    function exitFullscreen() {
+      const efs = document.exitFullscreen
+        || document.webkitExitFullscreen
+        || document.mozCancelFullScreen
+        || document.msExitFullscreen;
+      if (efs) return efs.call(document);
+      return Promise.resolve();
+    }
+
+    function init() {
+      const container = $('#Qwen-Image');
+      if (!container) return;
+
+      // 用容器全屏，兼容性更好（比直接对 img 全屏稳）
+      container.addEventListener('click', function () {
+        if (!isFullscreen()) {
+          enterFullscreen(container).catch(err => {
+            console.error('进入全屏失败：', err);
+          });
+        } else {
+          exitFullscreen();
+        }
+      });
+
+      // Esc 或系统手势退出后，光标还原
+      document.addEventListener('fullscreenchange', syncCursor);
+      document.addEventListener('webkitfullscreenchange', syncCursor);
+
+      function syncCursor() {
+        container.style.cursor = isFullscreen() ? 'zoom-out' : 'zoom-in';
+      }
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
+  })();
+</script>
 
 <script>
   const ext = '.mp4';
@@ -730,6 +746,7 @@
   <div class="container is-max-desktop content">
     <h2 class="title"><a id="bibtex">BibTeX</a></h2>
     <pre>
+      <!-- <button class="copy-btn" onclick="copyToClipboard()">Copy</button> -->
     <code id="code-snippet">@misc{gao2025lemica,
   title     = {LeMiCa: Lexicographic Minimax Path Caching for Efficient Diffusion-Based Video Generation},
   author    = {Huanlin Gao and Ping Chen and Fuyuan Shi and Chao Tan and Zhaoxiang Liu and Fang Zhao and Kai Wang and Shiguo Lian},

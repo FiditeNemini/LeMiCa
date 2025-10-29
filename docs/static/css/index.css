@@ -317,3 +317,80 @@ body {
     will-change: transform;
   }
 }
+
+/* 让鼠标看起来可点击 */
+#Qwen-Image { cursor: zoom-in; }
+
+/* 全屏时的适配（标准 + webkit 前缀） */
+#Qwen-Image:fullscreen,
+#Qwen-Image:-webkit-full-screen {
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Qwen-Image:fullscreen img,
+#Qwen-Image:-webkit-full-screen img {
+  max-width: 100vw;
+  max-height: 100vh;
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  object-fit: contain;
+}
+
+@import url('https://fonts.cdnfonts.com/css/menlo');
+
+.video-table td, .video-table th {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-weight: normal;
+}
+.first-col {
+  width: 7%;
+  vertical-align: middle;
+}
+.other-col {
+  width: 31%;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 1.1em;
+}
+.title.is-3 {
+  font-weight: 900;
+  font-size: 2.0rem;
+}
+.title.is-4 {
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+.custom-emoji {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  background-image: url('./static/images/lemica_icon.png'); /* 替换为你的图标路径 */
+  background-size: cover;
+  vertical-align: middle;
+  line-height: 1;
+}
+.label-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;  /* 平均分布 + 自动留白 */
+  align-items: center;
+  min-width: 100px;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.label-item {
+  display: flex;
+  align-items: center;  /* 垂直居中文字 */
+  justify-content: center; /* 水平居中 */
+  height: 33.33%;  /* 每个占整体1/3高度 */
+  width: 100%;
+}

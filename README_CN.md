@@ -121,13 +121,8 @@ LeMiCa 目前支持并已在以下基于扩散的模型上进行了测试：
 
 
 ## 致谢
-本仓库基于或受到以下开源项目与扩散框架的启发与支持：:  
-* [Diffusers](https://github.com/huggingface/diffusers),  
-* [Qwen-Image](https://github.com/QwenLM/Qwen-Image),  
-* [TeaCache](https://github.com/ali-vilab/TeaCache),  
-* [VideoSys](https://github.com/NUS-HPC-AI-Lab/VideoSys).  
+本仓库基于或受到以下开源项目的启发：[Diffusers](https://github.com/huggingface/diffusers)、[Qwen-Image](https://github.com/QwenLM/Qwen-Image)、[TeaCache](https://github.com/ali-vilab/TeaCache)、[VideoSys](https://github.com/NUS-HPC-AI-Lab/VideoSys)。我们衷心感谢这些社区的开放贡献与启发。
 
-我们衷心感谢这些社区的开放贡献与启发。
 
 
 ## 许可协议

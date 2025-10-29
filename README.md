@@ -70,18 +70,14 @@
 </p> -->
 
 
+
+![LeMiCa Overview](./assets/1_overview_clip.jpg)
+
+---
+
 ## Introduction
 
-<div align="center">
-  ![LeMiCa Overview]("./assets/1_overview.jpg"){ width=60% }
-</div>
-
-**LeMiCa** is a training-free acceleration framework for diffusion-based video generation (and extendable to image generation).
-Instead of using local heuristic thresholds, LeMiCa formulates cache scheduling as a global path optimization problem
-with error-weighted edges and introduces a **Lexicographic Minimax** strategy to bound the worst-case global error.
-This global planning improves both inference speed and consistency across frames.
-For more details and visual results, please visit our [project page](https://unicomai.github.io/LeMiCa/).
-
+**LeMiCa** is a training-free acceleration framework for diffusion-based video generation (and extendable to image generation). Instead of using local heuristic thresholds, LeMiCa formulates cache scheduling as a global path optimization problem with error-weighted edges and introduces a Lexicographic Minimax strategy to bound the worst-case global error. This global planning improves both inference speed and consistency across frames. For more details and visual results, please visit our [project page](https://unicomai.github.io/LeMiCa/).
 
 ---
 

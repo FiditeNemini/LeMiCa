@@ -69,12 +69,13 @@
 
 
 ## 🔥 Latest News
+- [2025/10/29] 🚀 Code will be released soon ！ 
 - [2025/10/20] 🔥 Added experimental support for **Qwen-Image** (Text-to-Image).  
 - [2025/09/18] ✨ Selected as a **NeurIPS 2025 Spotlight** paper.  
 - [2025/09/18] ✨ Initial public release of LeMiCa. 
 
 
-##  Demos
+##  Demo
 ##### Qwen-Image
 
 
@@ -104,22 +105,18 @@ LeMiCa currently supports and has been tested on the following diffusion-based m
 
 
 
-## 🧩 ToDo List
-- ✅ Public Project Page  
+## ToDo List
+- 🗹 Public Project Page  
 - ☐ Paper Released  
 - ☐ Text-to-Image Forward Inference  
 - ☐ Text-to-Video Forward Inference  
 - ☐ DAG Construction Code  
-- ☐ Open-Source Acceleration Framework   
+- ☐ Support Acceleration Framework   
 
 
 
 ## Acknowledgement
-This repository is built based on or inspired by the following open-source projects and diffusion frameworks:  
-[Diffusers](https://github.com/huggingface/diffusers),  
-[Qwen-Image](https://github.com/QwenLM/Qwen-Image),  
-[TeaCache](https://github.com/ali-vilab/TeaCache),  
-[VideoSys](https://github.com/NUS-HPC-AI-Lab/VideoSys).  
+This repository is built based on or inspired by the following open-source projects:  [Diffusers](https://github.com/huggingface/diffusers), [Qwen-Image](https://github.com/QwenLM/Qwen-Image), [TeaCache](https://github.com/ali-vilab/TeaCache), [VideoSys](https://github.com/NUS-HPC-AI-Lab/VideoSys).
 We sincerely thank these communities for their open contributions and inspiration.
 
 

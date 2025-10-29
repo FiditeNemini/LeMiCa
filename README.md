@@ -72,27 +72,16 @@
 
 ## Introduction
 
-<div style="display: flex; align-items: center; justify-content: center; gap: 24px; flex-wrap: wrap;">
-
-  <!-- 图片部分 -->
-  <div style="flex: 1; min-width: 280px; text-align: center;">
-    <img src="./assets/1_overview.jpg" alt="LeMiCa Overview" style="width:75%; max-width:360px; border-radius:8px; display:block; margin:0 auto;">
-    <div style="font-size:0.85em; color:#666; margin-top:6px;">Figure 1. Overview of LeMiCa</div>
-  </div>
-
-  <!-- 文字部分 -->
-  <div style="flex: 1.4; min-width: 320px; text-align: justify;">
-    <p>
-      <b>LeMiCa</b> is a training-free acceleration framework for diffusion-based video generation (and extendable to image generation).
-      Instead of using local heuristic thresholds, LeMiCa formulates cache scheduling as a global path optimization problem
-      with error-weighted edges and introduces a <b>Lexicographic Minimax</b> strategy to bound the worst-case global error.
-      This global planning improves both inference speed and consistency across frames.
-      For more details and visual results, please visit our
-      <a href="https://unicomai.github.io/LeMiCa/" target="_blank">project page</a>.
-    </p>
-  </div>
-
+<div align="center">
+  ![LeMiCa Overview]("./assets/1_overview.jpg"){ width=60% }
 </div>
+
+**LeMiCa** is a training-free acceleration framework for diffusion-based video generation (and extendable to image generation).
+Instead of using local heuristic thresholds, LeMiCa formulates cache scheduling as a global path optimization problem
+with error-weighted edges and introduces a **Lexicographic Minimax** strategy to bound the worst-case global error.
+This global planning improves both inference speed and consistency across frames.
+For more details and visual results, please visit our [project page](https://unicomai.github.io/LeMiCa/).
+
 
 ---
 
@@ -105,39 +94,14 @@
 ##  Demos
 ##### Qwen-Image
 
-<!-- 统一容器：让上面的文字表头和下面的图片宽度一致 -->
+
 <div style="width:85%;max-width:1000px;margin:0 auto;">
-
-  <!-- 表头（4列版本） -->
-  <div style="display:grid;grid-template-columns:repeat(4, 1fr);gap:12px;align-items:center;margin:12px 0;">
-    <div style="font-weight:700;text-align:center;display:flex;flex-direction:column;align-items:center;">
-      Original
-      <div style="font-size:0.95rem;color:#555;">Latency: <span>31.22s</span></div>
-    </div>
-    <div style="font-weight:700;text-align:center;display:flex;flex-direction:column;align-items:center;">
-      LeMiCa (B=25)
-      <div style="font-size:0.95rem;color:#555;">Latency: <span style="color:#e53935;font-weight:600;">17.93s</span></div>
-    </div>
-    <div style="font-weight:700;text-align:center;display:flex;flex-direction:column;align-items:center;">
-      LeMiCa (B=17)
-      <div style="font-size:0.95rem;color:#555;">Latency: <span style="color:#e53935;font-weight:600;">13.52s</span></div>
-    </div>
-    <div style="font-weight:700;text-align:center;display:flex;flex-direction:column;align-items:center;">
-      LeMiCa (B=10)
-      <div style="font-size:0.95rem;color:#555;">Latency:
-        <span style="color:#e53935;font-weight:600;">9.84s</span>
-      </div>
-    </div>
-  </div>
-
   <!-- 图片：无边框，宽度与上面表头一致 -->
   <img
-    src="./assets/Qwen-Image.jpg"
+    src="./assets/qw-image.jpg"
     alt="Qwen-Image visual result"
     style="width:100%;height:auto;display:block;margin:10px auto 4px auto;"
   />
-
-  <div style="text-align:center;font-size:0.9em;color:#555;">Comparison of inference efficiency and visual quality of LeMiCa on Qwen-Image</div>
 </div>
 
 ---

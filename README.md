@@ -48,7 +48,6 @@
 <a href="./assets/LeMiCa_NeurIPS2025.pdf" target="_blank">
   <img src="https://img.shields.io/badge/Paper-PDF-critical.svg?logo=adobeacrobatreader" alt="Paper PDF">
 </a>
-<img src="https://img.shields.io/badge/NeurIPS-2025%20Spotlight-ff69b4.svg" alt="NeurIPS 2025 Spotlight">
 <a href="./LICENSE" target="_blank">
   <img src="https://img.shields.io/badge/License-Apache%202.0-yellow.svg" alt="License">
 </a>

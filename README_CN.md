@@ -53,8 +53,11 @@
 <a href="https://github.com/UnicomAI/LeMiCa" target="_blank">
   <img src="https://img.shields.io/badge/Code-GitHub-black.svg?logo=github" alt="Code">
 </a>
-<a href="./assets/LeMiCa_NeurIPS2025.pdf" target="_blank">
+<a href="https://github.com/UnicomAI/LeMiCa/raw/main/assets/LeMiCa_NeurIPS2025.pdf" target="_blank">
   <img src="https://img.shields.io/badge/Paper-PDF-critical.svg?logo=adobeacrobatreader" alt="Paper PDF">
+</a>
+<a href="https://github.com/UnicomAI/LeMiCa/raw/main/assets/LeMiCa_NeurIPS2025_appendix.pdf" target="_blank">
+  <img src="https://img.shields.io/badge/Appendix-PDF-green.svg?logo=file-pdf" alt="Appendix PDF">
 </a>
 <a href="./LICENSE" target="_blank">
   <img src="https://img.shields.io/badge/License-Apache%202.0-yellow.svg" alt="License">
@@ -112,7 +115,7 @@ LeMiCa 目前支持并已在以下基于扩散的模型上进行了测试：
 
 ## 🧩 待办列表
 - ✅ 公开项目主页  
-- ☐ 发布论文  
+- ✅ 发布论文  
 - ☐ 文生图的前向推理 
 - ☐ 文生视频的前向推理  
 - ☐ DAG建图代码 

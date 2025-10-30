@@ -120,7 +120,7 @@ LeMiCa currently supports and has been tested on the following diffusion-based m
 
 ## ToDo List
 - 🗹 Public Project Page  
-- ☐ Paper Released  
+- 🗹 Paper Released  
 - ☐ Text-to-Image Forward Inference  
 - ☐ Text-to-Video Forward Inference  
 - ☐ DAG Construction Code  

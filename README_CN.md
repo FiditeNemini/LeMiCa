@@ -85,8 +85,12 @@
 - [2025/09/18] ✨ LeMiCa首次公开发布. 
 
 ##  展示
-##### Qwen-Image
+### Open-Sora
 
+https://github.com/user-attachments/assets/ba205856-2d77-494a-aaa9-09189ba2915c
+
+
+### Qwen-Image
 
 <div style="width:85%;max-width:1000px;margin:0 auto;">
   <!-- 图片：无边框，宽度与上面表头一致 -->

@@ -51,15 +51,15 @@
 <a href="https://unicomai.github.io/LeMiCa/" target="_blank">
   <img src="https://img.shields.io/badge/Project-Website-blue.svg" alt="Project Page">
 </a>
-<a href="https://github.com/UnicomAI/LeMiCa" target="_blank">
+<!-- <a href="https://github.com/UnicomAI/LeMiCa" target="_blank">
   <img src="https://img.shields.io/badge/Code-GitHub-black.svg?logo=github" alt="Code">
+</a> -->
+<a href="https://arxiv.org/abs/2511.00090" target="_blank">
+  <img src="https://img.shields.io/badge/Paper-PDF-critical.svg?logo=adobeacrobatreader" alt="Paper">
 </a>
-<a href="https://github.com/UnicomAI/LeMiCa/raw/main/assets/LeMiCa_NeurIPS2025.pdf" target="_blank">
-  <img src="https://img.shields.io/badge/Paper-PDF-critical.svg?logo=adobeacrobatreader" alt="Paper PDF">
-</a>
-<a href="https://github.com/UnicomAI/LeMiCa/raw/main/assets/LeMiCa_NeurIPS2025_appendix.pdf" target="_blank">
+<!-- <a href="https://github.com/UnicomAI/LeMiCa/raw/main/assets/LeMiCa_NeurIPS2025_appendix.pdf" target="_blank">
   <img src="https://img.shields.io/badge/Appendix-PDF-green.svg?logo=file-pdf" alt="Appendix PDF">
-</a>
+</a> -->
 </a>
 <a href="./LICENSE" target="_blank">
   <img src="https://img.shields.io/badge/License-Apache%202.0-yellow.svg" alt="License">

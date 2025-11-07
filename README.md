@@ -82,12 +82,12 @@
 
 
 ## 🔥 Latest News
-- [2025/11/07] 🔥 Support Qwen-Image and Inference Code Released!  
-- [2025/10/29] 🚀 Code will be released soon ！ 
-- [2025/10/20] 🔥 **Qwen-Image** (Text-to-Image) support added.  
+- [2025/11/07] 🔥 Support [**Qwen-Image**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4QwenImage) and Inference Code Released !  
+- [2025/10/29] 🚀 Code will be released soon !  
 - [2025/09/18] ✨ Selected as a **NeurIPS 2025 Spotlight** paper.  
 - [2025/09/18] ✨ Initial public release of LeMiCa. 
 
+<!-- - [2025/10/20] 🔥 **Qwen-Image** (Text-to-Image) support added.   -->
 
 ##  Demo
 

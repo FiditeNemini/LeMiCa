@@ -82,6 +82,7 @@
 
 
 ## 🔥 Latest News
+- [2025/11/13] 🔥 Support [**Wan2.1**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4Wan2.1) ! 
 - [2025/11/07] 🔥 Support [**Qwen-Image**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4QwenImage) and Inference Code Released !  
 - [2025/10/29] 🚀 Code will be released soon !  
 - [2025/09/18] ✨ Selected as a **NeurIPS 2025 Spotlight** paper.  

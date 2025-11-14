@@ -96,9 +96,9 @@
 
 ### Wan2.1
 
-| Model | Wan2.1 (latency min) | LeMiCa (B=25) | LeMiCa (B=20) | LeMiCa (B=17) | LeMiCa (B=14) |
+<!-- | Model | Wan2.1 (latency min) | LeMiCa (B=25) | LeMiCa (B=20) | LeMiCa (B=17) | LeMiCa (B=14) |
 |:------:|:--------------------:|:--------------:|:--------------:|:--------------:|:--------------:|
-| **I2V 14B 480p** | $7.78$ | $5.01$ ($\mathbf{1.55\text{x}}$) | $4.44$ ($\mathbf{1.75\text{x}}$) | $3.62$ ($\mathbf{2.15\text{x}}$) | $3.24$ ($\mathbf{2.40\text{x}}$) |
+| **I2V 14B 480p** | $7.78$ | $5.01$ ($\mathbf{1.55\text{x}}$) | $4.44$ ($\mathbf{1.75\text{x}}$) | $3.62$ ($\mathbf{2.15\text{x}}$) | $3.24$ ($\mathbf{2.40\text{x}}$) | -->
 
 https://github.com/user-attachments/assets/3d99b959-7253-47ec-af0a-da13a66e6d49
 

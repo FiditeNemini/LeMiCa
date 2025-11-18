@@ -118,8 +118,7 @@ LeMiCa 目前支持并已在以下基于扩散的模型上进行了测试：
 - [Wan2.1](https://github.com/Wan-Video/Wan2.1)  
 
 **文生图**
-- [Qwen-Image](https://github.com/QwenLM/Qwen-Image)  
-- [FLUX.1](https://github.com/black-forest-labs/flux) 
+- [Qwen-Image](https://github.com/QwenLM/Qwen-Image) 
 
 
 

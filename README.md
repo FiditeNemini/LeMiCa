@@ -146,8 +146,6 @@ LeMiCa currently supports and has been tested on the following diffusion-based m
 **Text-to-Image**
 - [Qwen-Image](https://github.com/QwenLM/Qwen-Image)  
 
-- [FLUX.1](https://github.com/black-forest-labs/flux) 
-
 
 
 ## ToDo List

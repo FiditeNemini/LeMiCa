@@ -132,8 +132,15 @@ LeMiCa 目前支持并已在以下基于扩散的模型上进行了测试：
 
 
 
+## 🧩 社区贡献 & 友情链接
+
+- **[Qwen-Image](https://github.com/QwenLM/Qwen-Image)** 和 **[CogVideo](https://github.com/THUDM/CogVideo)** 在其项目主页对 LeMiCa 进行了推荐。
+
+- **[Cache-DiT](https://github.com/vipshop/cache-dit)** 一个统一且灵活的 DiT 推理加速框架，融合并实践了 LeMiCa 的核心洞察。欢迎尝试和探索。[详细内容](https://github.com/vipshop/cache-dit/blob/main/docs/User_Guide.md#steps-mask)
+
+
 ## 致谢
-本仓库基于或受到以下开源项目的启发：[Diffusers](https://github.com/huggingface/diffusers)、[Qwen-Image](https://github.com/QwenLM/Qwen-Image)、[TeaCache](https://github.com/ali-vilab/TeaCache)、[VideoSys](https://github.com/NUS-HPC-AI-Lab/VideoSys)。我们衷心感谢这些社区的开放贡献与启发。
+本仓库基于或受到以下开源项目的启发：[Diffusers](https://github.com/huggingface/diffusers)、[TeaCache](https://github.com/ali-vilab/TeaCache)和[VideoSys](https://github.com/NUS-HPC-AI-Lab/VideoSys)。我们衷心感谢这些社区的开放贡献与启发。
 
 
 

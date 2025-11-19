@@ -158,8 +158,17 @@ LeMiCa currently supports and has been tested on the following diffusion-based m
 
 
 
+## Community Contributions & Friendly Links
+
+- [Qwen-Image](https://github.com/QwenLM/Qwen-Image) and [CogVideo](https://github.com/THUDM/CogVideo) featured LeMiCa on their project homepages.
+
+- [Cache-DiT](https://github.com/vipshop/cache-dit) A unified and flexible inference engine for DiTs, integrating and applying LeMiCa’s core insights. Welcome to try and explore. [Details](https://github.com/vipshop/cache-dit/blob/main/docs/User_Guide.md#steps-mask)
+
+
+  
+
 ## Acknowledgement
-This repository is built based on or inspired by the following open-source projects:  [Diffusers](https://github.com/huggingface/diffusers), [Qwen-Image](https://github.com/QwenLM/Qwen-Image), [TeaCache](https://github.com/ali-vilab/TeaCache), [VideoSys](https://github.com/NUS-HPC-AI-Lab/VideoSys).
+This repository is built based on or inspired by the following open-source projects:  [Diffusers](https://github.com/huggingface/diffusers), [TeaCache](https://github.com/ali-vilab/TeaCache), [VideoSys](https://github.com/NUS-HPC-AI-Lab/VideoSys).
 We sincerely thank these communities for their open contributions and inspiration.
 
 

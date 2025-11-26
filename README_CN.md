@@ -1,4 +1,8 @@
-<a href="./README.md">📚English </a> | 📚中文阅读 
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <span><a href="./README.md">📚English </a> | 📚中文阅读 </span>
+  <a href="https://mp.weixin.qq.com/s/o6MMOzbmGBRpB_a_9U8JMw?">机器之心</a> 
+</div>
 
 <div align="center">
 <!-- <img src="https://github.com/user-attachments/assets/6ceb4269-a861-4545-84db-bad322592156" style="width:auto; height:120px;" />&nbsp; -->

@@ -1,7 +1,9 @@
-📚English | <a href="./README_CN.md">📚中文阅读 </a> 
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <span>📚English | <a href="./README_CN.md">📚中文阅读 </a></span>
+  <a href="https://mp.weixin.qq.com/s/o6MMOzbmGBRpB_a_9U8JMw?">机器之心</a> 
+</div>
 
 <div align="center">
-<!-- <img src="https://github.com/user-attachments/assets/6ceb4269-a861-4545-84db-bad322592156" style="width:auto; height:120px;" />&nbsp; -->
 <img src="https://unicomai.github.io/LeMiCa/static/images/logv2.png" style="width:auto; height:150px;">
 </div>
 

@@ -201,6 +201,8 @@ The majority of this project is released under the **Apache 2.0 license** as fou
 ## 📖 Citation
 If you find **LeMiCa** useful in your research or applications, please consider giving us a star ⭐ and citing it by the following BibTeX entry:
 
+
+
 ```bibtex
 @inproceedings{gao2025lemica,
   title     = {LeMiCa: Lexicographic Minimax Path Caching for Efficient Diffusion-Based Video Generation},
@@ -210,3 +212,15 @@ If you find **LeMiCa** useful in your research or applications, please consider 
   url       = {https://arxiv.org/abs/2511.00090}
 }
 ```
+
+## ⭐ Star History
+
+<div align='center'>
+<a href="https://star-history.com/#UnicomAI/LeMiCa&Date">
+  <picture align='center'>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=UnicomAI/LeMiCa&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=UnicomAI/LeMiCa&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=UnicomAI/LeMiCa&type=Date" width=400px />
+  </picture>
+</a>
+</div>

@@ -153,6 +153,7 @@ LeMiCa 目前支持并已在以下基于扩散的模型上进行了测试：
 如果您在研究或应用中发现 **LeMiCa** 有所帮助，请考虑为我们点⭐并通过以下BibTeX条目引用：
 
 
+
 ```bibtex
 @inproceedings{gao2025lemica,
   title     = {LeMiCa: Lexicographic Minimax Path Caching for Efficient Diffusion-Based Video Generation},
@@ -161,3 +162,4 @@ LeMiCa 目前支持并已在以下基于扩散的模型上进行了测试：
   year      = {2025},
   url       = {https://arxiv.org/abs/2511.00090}
 }
+```

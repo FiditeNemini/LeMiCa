@@ -80,6 +80,7 @@
 
 
 ## 🔥 最近更新
+- [2025/12/01] 支持 [**Z-Image**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4Z-Image)  推理加速
 - [2025/11/14] ⭐我们开源了 [**Awesome-Acceleration-GenAI**](https://github.com/joelulu/Awesome-Acceleration-GenAI)，收集了最新生成加速技术，欢迎查看！
 - [2025/11/13] 支持 [**Wan2.1**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4Wan2.1) 推理加速
 - [2025/11/07] 🔥 [**Qwen-Image**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4QwenImage) 推理加速已开源 !  

@@ -12,6 +12,8 @@
 
 | Z-Image | LeMiCa-slow | LeMiCa-medium | LeMiCa-fast |
 |:-------:|:-----------:|:-------------:|:-----------:|
+| 2.55 s  | 2.19 s      | 1.94 s        | 1.78 s      |
+
 | <img width="120" alt="Z-Image" src="https://github.com/user-attachments/assets/e7aa76a9-2ffd-4cfc-8c9d-2240f357850b" /> | <img width="120" alt="LeMiCa-slow" src="https://github.com/user-attachments/assets/e7ff50b9-44bb-48ff-86f9-14dacc1b5144" /> | <img width="120" alt="LeMiCa-medium" src="https://github.com/user-attachments/assets/786ad801-ac92-4467-86a6-661b5e7dca53" /> | <img width="120" alt="LeMiCa-fast" src="https://github.com/user-attachments/assets/722d79b1-69fb-4683-914f-e92533394393" /> |
 
 > Note: The above numbers are example latency measurements for a single H800 GPU with a 1024×1024 resolution. Actual performance may vary depending on hardware and configuration.

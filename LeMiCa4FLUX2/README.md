@@ -1,6 +1,6 @@
 # ⚡ FLUX.2 Inference Acceleration
 
-[**FLUX.2**](https://github.com/black-forest-labs/flux2) is a high-performance **text-to-image** and **image-to-image** diffusion framework built by *Black Forest Labs*, optimized for multi-GPU & large-batch inference. It supports advanced caching & remote encoding strategies for maximum throughput 🚀.
+[**FLUX.2**](https://github.com/black-forest-labs/flux2) is a high-performance **text-to-image** and **image-to-image** diffusion framework built by *Black Forest Labs*. [LeMiCa](https://github.com/UnicomAI/LeMiCa) already supports and provides three optional acceleration paths based on the balance between quality and speed.🚀
 
 ---
 

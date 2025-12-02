@@ -90,15 +90,43 @@
 
 ##  展示
 
+
+### FlUX.2
+
+| Method              | Flux.2 (CPU-offload) | Flux.2         | LeMiCa-slow    | LeMiCa-medium | LeMiCa-fast   |
+|:-------------------:|:--------------------:|:--------------:|:--------------:|:-------------:|:-------------:|
+| **Latency (sec)**   | 101.2                | 32.70          | 13.41          | 10.20         | 6.99          |
+| **T2I** | <img width="120" alt="Flux2 CPU-offload" src="https://github.com/user-attachments/assets/76fda91e-8819-4914-87e4-8a832135da0f" /> | <img width="120" alt="Flux2" src="https://github.com/user-attachments/assets/a3f320e3-9d36-4618-9953-f714646e6bf7" /> | <img width="120" alt="LeMiCa-slow" src="https://github.com/user-attachments/assets/b28fdd2b-8178-4ba7-bf23-3da66f555593" /> | <img width="120" alt="LeMiCa-medium" src="https://github.com/user-attachments/assets/72b4361d-8afe-4c94-9654-77697e3c1444" /> | <img width="120" alt="LeMiCa-fast" src="https://github.com/user-attachments/assets/56ea6af3-e1a5-4134-890b-24f5666081e9" /> |
+
+
+### Z-Image
+| Method   | Z-Image | LeMiCa-slow | LeMiCa-medium | LeMiCa-fast |
+|:-------:|:-------:|:-----------:|:-------------:|:-----------:|
+| **Latency (sec)**   | 2.55 s  | 2.19 s      | 1.94 s        | 1.78 s      |
+| **T2I** | <img width="120" alt="Z-Image" src="https://github.com/user-attachments/assets/e7aa76a9-2ffd-4cfc-8c9d-2240f357850b" /> | <img width="120" alt="LeMiCa-slow" src="https://github.com/user-attachments/assets/e7ff50b9-44bb-48ff-86f9-14dacc1b5144" /> | <img width="120" alt="LeMiCa-medium" src="https://github.com/user-attachments/assets/786ad801-ac92-4467-86a6-661b5e7dca53" /> | <img width="120" alt="LeMiCa-fast" src="https://github.com/user-attachments/assets/722d79b1-69fb-4683-914f-e92533394393" /> |
+
+
+
+
 ### Wan2.1
+<details>
+  <summary>Click to expand Wan2.1 example</summary>
 https://github.com/user-attachments/assets/3d99b959-7253-47ec-af0a-da13a66e6d49
+</details>
 
 ### Open-Sora
 
+<details>
+  <summary>Click to expand Open-Sora example</summary>
+
 https://github.com/user-attachments/assets/ba205856-2d77-494a-aaa9-09189ba2915c
+</details>
 
 
 ### Qwen-Image
+
+<details>
+  <summary>Click to expand Qwen-Image example</summary>
 
 <div style="width:85%;max-width:1000px;margin:0 auto;">
   <!-- 图片：无边框，宽度与上面表头一致 -->
@@ -109,6 +137,7 @@ https://github.com/user-attachments/assets/ba205856-2d77-494a-aaa9-09189ba2915c
   />
 </div>
 
+</details>
 
 ##  支持模型列表
 LeMiCa 目前支持并已在以下基于扩散的模型上进行了测试：  

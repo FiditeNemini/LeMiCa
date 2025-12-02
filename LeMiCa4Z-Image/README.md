@@ -2,10 +2,6 @@
 
 [LeMiCa](https://github.com/UnicomAI/LeMiCa) already supports accelerated inference for [Z-Image](https://github.com/Tongyi-MAI/Z-Image) and provides three optional acceleration paths that balance image quality and speed.
 
-<!-- | Z-Image | LeMiCa-slow | LeMiCa-medium | LeMiCa-fast |
-|:-------:|:-----------:|:-------------:|:-----------:|
-| 2.55 s  | 2.19 s      | 1.94 s        | 1.78 s      |
-| <img src="assets/z_image.png" width="120px"> | <img src="assets/lemica_slow.png" width="120px"> | <img src="assets/lemica_medium.png" width="120px"> | <img src="assets/lemica_fast.png" width="120px"> | -->
 
 ## 📊 Inference Latency
 #### Comparisons on a Single H800

@@ -80,7 +80,8 @@
 
 
 ## 🔥 最近更新
-- [2025/12/01] 支持 [**Z-Image**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4Z-Image)  推理加速
+- [2025/12/08] 支持 [**HunyuanVideo1.5**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4HunyuanVideo1.5) 文生视频和图生视频。
+- [2025/12/02] 支持 [**Z-Image**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4Z-Image) 和 [**FLUX.2**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4FLUX2) 推理加速
 - [2025/11/14] ⭐我们开源了 [**Awesome-Acceleration-GenAI**](https://github.com/joelulu/Awesome-Acceleration-GenAI)，收集了最新生成加速技术，欢迎查看！
 - [2025/11/13] 支持 [**Wan2.1**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4Wan2.1) 推理加速
 - [2025/11/07] 🔥 [**Qwen-Image**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4QwenImage) 推理加速已开源 !  
@@ -89,6 +90,15 @@
 - [2025/09/18] ✨ LeMiCa首次公开发布. 
 
 ##  展示
+
+
+### HunyuanVideo1.5
+
+#### T2V 720P
+https://github.com/user-attachments/assets/ebed2e0f-87f4-408e-98e3-93bd29bbc99f
+
+####  I2V 720P
+https://github.com/user-attachments/assets/d1a83d45-579f-4174-9477-ba0b9aebb322
 
 
 ### FlUX.2
@@ -104,7 +114,6 @@
 |:-------:|:-------:|:-----------:|:-------------:|:-----------:|
 | **Latency (sec)**   | 2.55 s  | 2.19 s      | 1.94 s        | 1.78 s      |
 | **T2I** | <img width="120" alt="Z-Image" src="https://github.com/user-attachments/assets/e7aa76a9-2ffd-4cfc-8c9d-2240f357850b" /> | <img width="120" alt="LeMiCa-slow" src="https://github.com/user-attachments/assets/e7ff50b9-44bb-48ff-86f9-14dacc1b5144" /> | <img width="120" alt="LeMiCa-medium" src="https://github.com/user-attachments/assets/786ad801-ac92-4467-86a6-661b5e7dca53" /> | <img width="120" alt="LeMiCa-fast" src="https://github.com/user-attachments/assets/722d79b1-69fb-4683-914f-e92533394393" /> |
-
 
 
 

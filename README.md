@@ -97,6 +97,11 @@
 
 ##  Demo
 
+### ComfyUI-LeMiCa
+<p align="center">
+  <img src="ComfyUI-LeMiCa\assets\ComfyUI.png" alt="ComfyUI-LeMiCa Workflow" width="600"/>
+</p>
+
 ### HunyuanVideo1.5
 
 #### T2V 720P (Up to a 2.86× speedup）

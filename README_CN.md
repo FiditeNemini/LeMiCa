@@ -95,6 +95,11 @@
 
 ### HunyuanVideo1.5
 
+### ComfyUI-LeMiCa
+<p align="center">
+  <img src="ComfyUI-LeMiCa\assets\ComfyUI.png" alt="ComfyUI-LeMiCa Workflow" width="600"/>
+</p>
+
 #### T2V 720P
 https://github.com/user-attachments/assets/ebed2e0f-87f4-408e-98e3-93bd29bbc99f
 

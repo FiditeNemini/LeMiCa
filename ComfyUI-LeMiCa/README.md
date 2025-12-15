@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f8665454-0c6c-4f7b-9961-73656c820b4b" alt="ComfyUI-LeMiCa Workflow" width="800"/>
+  <img src="ComfyUI-LeMiCa\assets\ComfyUI.png" alt="ComfyUI-LeMiCa Workflow" width="800"/>
 </p>
 
 

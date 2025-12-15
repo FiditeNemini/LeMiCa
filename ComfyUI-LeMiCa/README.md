@@ -3,7 +3,9 @@
 **LeMiCa** has been integrated into **ComfyUI** and is fully compatible with ComfyUI native nodes. **ComfyUI-LeMiCa** is easy to use — simply connect the **LeMiCa** node with ComfyUI native nodes for seamless integration.
 
 
-https://github.com/user-attachments/assets/f8665454-0c6c-4f7b-9961-73656c820b4b
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f8665454-0c6c-4f7b-9961-73656c820b4b" alt="ComfyUI-LeMiCa Workflow" width="800"/>
+</p>
 
 
 ### supported models

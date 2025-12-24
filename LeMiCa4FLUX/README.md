@@ -25,7 +25,7 @@ Please refer to the official projects for base installation instructions:
 - [**FLUX.1**](https://github.com/black-forest-labs/flux)
 - [**FLUX.2**](https://github.com/black-forest-labs/flux2)
 
-### 📡 Remote Text Encoder (H100/H800 Recommended)
+### 📡 Remote Text Encoder (H100/H800 Recommended, FLUX.2 only)
 For heavy text encoding workloads, you can offload the text encoder to a separate dedicated GPU (e.g., H100) via a simple FastAPI service. Or refer to the [**Official Guide**](https://github.com/black-forest-labs/flux2/blob/main/docs/flux2_dev_hf.md#remote-text-encoder--h100)
 
 ```bash

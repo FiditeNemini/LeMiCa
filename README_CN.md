@@ -188,7 +188,7 @@ LeMiCa 目前支持并已在以下基于扩散的模型上进行了测试：
 
 - **[Cache-DiT](https://github.com/vipshop/cache-dit)** 一个统一且灵活的 DiT 推理加速框架，融合并实践了 LeMiCa 的核心洞察。欢迎尝试和探索。[详细内容](https://github.com/vipshop/cache-dit/blob/main/docs/User_Guide.md#steps-mask)
 
-- [ComfyUI-LeMiCa](https://github.com/UnicomAI/LeMiCa/tree/main/ComfyUI-LeMiCa) 已经支持 **Z-Image** 节点. 感谢 @scruffynerf!
+- [ComfyUI-LeMiCa](https://github.com/UnicomAI/LeMiCa/tree/main/ComfyUI-LeMiCa) 已经支持 **Z-Image** 节点. 感谢 @[scruffynerf](https://github.com/scruffynerf).
 
 ## 致谢
 本仓库基于或受到以下开源项目的启发：[Diffusers](https://github.com/huggingface/diffusers)、[TeaCache](https://github.com/ali-vilab/TeaCache)和[VideoSys](https://github.com/NUS-HPC-AI-Lab/VideoSys)。我们衷心感谢这些社区的开放贡献与启发。

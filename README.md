@@ -192,7 +192,7 @@ LeMiCa currently supports and has been tested on the following diffusion-based m
 
 - [Cache-DiT](https://github.com/vipshop/cache-dit) A unified and flexible inference engine for DiTs, integrating and applying LeMiCa’s core insights. Welcome to try and explore. [Details](https://github.com/vipshop/cache-dit/blob/main/docs/User_Guide.md#steps-mask)
 
-- [ComfyUI-LeMiCa](https://github.com/UnicomAI/LeMiCa/tree/main/ComfyUI-LeMiCa) now includes **Z-Image** nodes. Thanks @scruffynerf!
+- [ComfyUI-LeMiCa](https://github.com/UnicomAI/LeMiCa/tree/main/ComfyUI-LeMiCa) now includes **Z-Image** nodes. Thanks @[scruffynerf](https://github.com/scruffynerf).
 
 
 ## Acknowledgement

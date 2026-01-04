@@ -140,7 +140,7 @@ class QwenImageModel():
     A text-to-image model implementation using Qwen's diffusion pipeline.
     """
     
-    def __init__(self, model_path: str = "/home/jovyan/.cache/modelscope/hub/models/Qwen/Qwen-Image/", device: Optional[str] = None) -> None:
+    def __init__(self, model_path: str = "Qwen/Qwen-Image", device: Optional[str] = None) -> None:
         """
         Initialize the Qwen image model.
         
@@ -159,7 +159,7 @@ class QwenImageModel():
         # Load the pipeline
         self.pipe = DiffusionPipeline.from_pretrained(model_path, torch_dtype=self.torch_dtype)
         self.pipe = self.pipe.to(self.device)
-
+        # self.model_path = model_path
         
         # Positive magic prompts for different languages
         self.positive_magic = {
@@ -168,11 +168,20 @@ class QwenImageModel():
         }
         
         # ---------------------------------------- CACHE BELOW ------------------------------------------- 
-        speed_dict = {
-            "slow":   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 26, 33, 36, 42, 49],
-            "medium": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 22, 29, 36, 42, 49],
-            "fast":   [0, 1, 3, 7, 14, 21, 28, 35, 42, 49]
-        }
+        
+        if 'Qwen-Image-2512' in model_path:
+            speed_dict = {
+                "slow":   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14, 16, 19, 23, 28, 34, 39, 42, 44, 46, 47, 48, 49],
+                "medium": [0, 1, 2, 3, 4, 5, 6, 7, 9, 12, 19, 26, 33, 40, 46, 48, 49],
+                "fast":   [0, 2, 4, 8, 15, 22, 29, 36, 43, 49]
+            }
+        else:
+            speed_dict = {
+                "slow":   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 26, 33, 36, 42, 49],
+                "medium": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 22, 29, 36, 42, 49],
+                "fast":   [0, 1, 3, 7, 14, 21, 28, 35, 42, 49]
+            }
+
         
         num_inference_steps = 50
         bool_lists = {
@@ -200,9 +209,10 @@ class QwenImageModel():
         **kwargs: Dict[str, Any]
     ) -> List[Image.Image]:
         """Generate images based on the given prompt."""
+        
         lang = "zh" if any('\u4e00' <= char <= '\u9fff' for char in prompt) else "en"
         full_prompt = prompt + " " + self.positive_magic[lang]
-
+        
         # Default params
         if "num_inference_steps" not in kwargs:
             kwargs["num_inference_steps"] = 50
@@ -252,9 +262,16 @@ def get_args():
 
 if __name__=="__main__":
     args = get_args()
-    model = QwenImageModel()
-    prompt = "一位穿着印有“LeMiCa”标志黑色T恤的中国女性，手持黑色马克笔，微笑着正对镜头。她身后是数据中心机房的玻璃墙，墙上手写体清晰地写着:'LeMiCa 注意到局部误差累积问题，创新性提出利用 DAG 和 路径优化 以提升加速后的生成一致性' 这些内容。"
-    images = model(prompt, num_images_per_prompt=1, cache=args.cache, seed=args.seed)
+
+    # model_name = "Qwen/Qwen-Image"  
+    model_name = "Qwen/Qwen-Image-2512"
+
+    model = QwenImageModel(model_path = model_name)
+    # prompt = "一位穿着印有“LeMiCa”标志黑色T恤的中国女性，手持黑色马克笔，微笑着正对镜头。她身后是数据中心机房的玻璃墙，墙上手写体清晰地写着:'LeMiCa 注意到局部误差累积问题，创新性提出利用 DAG 和 路径优化 以提升加速后的生成一致性' 这些内容。"
+    
+    prompt = '''A 20-year-old East Asian girl with delicate, charming features and large, bright brown eyes—expressive and lively, with a cheerful or subtly smiling expression. Her naturally wavy long hair is either loose or tied in twin ponytails. She has fair skin and light makeup accentuating her youthful freshness. She wears a modern, cute dress or relaxed outfit in bright, soft colors—lightweight fabric, minimalist cut. She stands indoors at an anime convention, surrounded by banners, posters, or stalls. Lighting is typical indoor illumination—no staged lighting—and the image resembles a casual iPhone snapshot: unpretentious composition, yet brimming with vivid, fresh, youthful charm.'''
+    negative_prompt = "低分辨率，低画质，肢体畸形，手指畸形，画面过饱和，蜡像感，人脸无细节，过度光滑，画面具有AI感。构图混乱。文字模糊，扭曲。"
+    images = model(prompt, negative_prompt = negative_prompt, num_images_per_prompt=1, cache=args.cache, seed=args.seed)
     cache_name = args.cache if args.cache else "noCache"
     for i, img in enumerate(images):
         img.save(f"image_{cache_name}_{i}.png")
@@ -264,3 +281,8 @@ if __name__=="__main__":
     
 
     
+
+    
+
+    
+

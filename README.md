@@ -105,7 +105,7 @@
 </p>
 
 
-#### Qwen-Image-2512
+### Qwen-Image-2512
 
 | Method   | Qwen-Image-2512 | LeMiCa-slow | LeMiCa-medium | LeMiCa-fast |
 |:-------:|:-------:|:-----------:|:-------------:|:-----------:|

@@ -101,7 +101,7 @@
   <img src="ComfyUI-LeMiCa\assets\ComfyUI.png" alt="ComfyUI-LeMiCa Workflow" width="850"/>
 </p>
 
-#### Qwen-Image-2512
+### Qwen-Image-2512
 
 | Method   | Qwen-Image-2512 | LeMiCa-slow | LeMiCa-medium | LeMiCa-fast |
 |:-------:|:-------:|:-----------:|:-------------:|:-----------:|

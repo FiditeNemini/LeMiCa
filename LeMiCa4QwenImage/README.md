@@ -3,9 +3,7 @@
 
 [LeMiCa](https://github.com/UnicomAI/LeMiCa) already supports accelerated inference for [Qwen-Image](https://github.com/QwenLM/Qwen-Image) and provides three optional acceleration paths based on the balance between quality and speed.
  
-#### Qwen-Image
 ![visualization](../assets/qw-image.jpg)
-
 
 #### Qwen-Image-2512
 

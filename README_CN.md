@@ -80,7 +80,7 @@
 
 
 ## 🔥 最近更新
-- [2025/12/15] 补充FLUX.1-dev的支持 [**LeMiCa4FLUX**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4FLUX)
+- [2025/01/20] 补充FLUX.1-dev和FLUX.2-klein的支持 [**LeMiCa4FLUX**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4FLUX)
 - [2025/12/15] 🔥 [**ComfyUI-LeMiCa**](https://github.com/UnicomAI/LeMiCa/tree/main/ComfyUI-LeMiCa) 已无缝集成至 [**ComfyUI**](https://github.com/comfyanonymous/ComfyUI)，欢迎体验。
 - [2025/12/08] 支持 [**HunyuanVideo1.5**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4HunyuanVideo1.5) 文生视频和图生视频。
 - [2025/12/02] 支持 [**Z-Image**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4Z-Image) 和 [**FLUX.2**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4FLUX2) 推理加速
@@ -100,6 +100,14 @@
 <p align="center">
   <img src="ComfyUI-LeMiCa\assets\ComfyUI.png" alt="ComfyUI-LeMiCa Workflow" width="850"/>
 </p>
+
+
+### FLUX.2(klein-9B)
+
+| Method              | Flux.2(klein-9B) | LeMiCa-slow         | LeMiCa-medium    | LeMiCa-fast | LeMiCa-ultra   |
+|:-------------------:|:--------------------:|:--------------:|:--------------:|:-------------:|:-------------:|
+| **Latency**   | 20.04 s                | 10.77 s          | 8.45 s          | 6.54 s         | 4.59 s          |
+| **T2I** | <img width="120" alt="Flux.2(klein-9B)" src="https://github.com/user-attachments/assets/07989284-1856-44c8-8a6b-2b46d9532ff2" /> | <img width="120" alt="LeMiCa-slow" src="https://github.com/user-attachments/assets/66130c70-12e3-479f-9062-55c249128821" /> | <img width="120" alt="LeMiCa-medium" src="https://github.com/user-attachments/assets/445cd63a-a896-4bfa-8705-a1043ed42bef" /> | <img width="120" alt="LeMiCa-fast" src="https://github.com/user-attachments/assets/042f45c6-e9ac-4b60-a6a4-ec7fc603f6e3" /> | <img width="120" alt="LeMiCa-ultra" src="https://github.com/user-attachments/assets/c9356da6-924f-4502-b0e4-a902820f7740" /> |
 
 ### Qwen-Image-2512
 

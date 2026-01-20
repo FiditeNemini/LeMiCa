@@ -8,14 +8,14 @@
 
 **Example latency (single H100/H800 @ 1024×1024):**
 
-| Method              | Flux.2(CPU-offload) | Flux.2         | LeMiCa-slow    | LeMiCa-medium | LeMiCa-fast   |
+| Method              | FLUX.2(CPU-offload) | Flux.2         | LeMiCa-slow    | LeMiCa-medium | LeMiCa-fast   |
 |:-------------------:|:--------------------:|:--------------:|:--------------:|:-------------:|:-------------:|
 | **Latency**   | 101.2 s                | 32.70 s          | 13.41 s          | 10.20 s         | 6.99 s          |
 | **T2I** | <img width="120" alt="Flux2 CPU-offload" src="https://github.com/user-attachments/assets/76fda91e-8819-4914-87e4-8a832135da0f" /> | <img width="120" alt="Flux2" src="https://github.com/user-attachments/assets/a3f320e3-9d36-4618-9953-f714646e6bf7" /> | <img width="120" alt="LeMiCa-slow" src="https://github.com/user-attachments/assets/b28fdd2b-8178-4ba7-bf23-3da66f555593" /> | <img width="120" alt="LeMiCa-medium" src="https://github.com/user-attachments/assets/72b4361d-8afe-4c94-9654-77697e3c1444" /> | <img width="120" alt="LeMiCa-fast" src="https://github.com/user-attachments/assets/56ea6af3-e1a5-4134-890b-24f5666081e9" /> |
 
 
 
-| Method              | Flux.2(klein-9B) | LeMiCa-slow         | LeMiCa-medium    | LeMiCa-fast | LeMiCa-ultra   |
+| Method              | FLUX.2(klein-9B) | LeMiCa-slow         | LeMiCa-medium    | LeMiCa-fast | LeMiCa-ultra   |
 |:-------------------:|:--------------------:|:--------------:|:--------------:|:-------------:|:-------------:|
 | **Latency**   | 20.04 s                | 10.77 s          | 8.45 s          | 6.54 s         | 4.59 s          |
 | **T2I** | <img width="120" alt="Flux.2(klein-9B)" src="https://github.com/user-attachments/assets/07989284-1856-44c8-8a6b-2b46d9532ff2" /> | <img width="120" alt="LeMiCa-slow" src="https://github.com/user-attachments/assets/66130c70-12e3-479f-9062-55c249128821" /> | <img width="120" alt="LeMiCa-medium" src="https://github.com/user-attachments/assets/445cd63a-a896-4bfa-8705-a1043ed42bef" /> | <img width="120" alt="LeMiCa-fast" src="https://github.com/user-attachments/assets/042f45c6-e9ac-4b60-a6a4-ec7fc603f6e3" /> | <img width="120" alt="LeMiCa-ultra" src="https://github.com/user-attachments/assets/c9356da6-924f-4502-b0e4-a902820f7740" /> |
@@ -31,6 +31,7 @@
 Please refer to the official projects for base installation instructions:
 - [**FLUX.1**](https://github.com/black-forest-labs/flux)
 - [**FLUX.2**](https://github.com/black-forest-labs/flux2)
+- [**FLUX.2-klein**](https://github.com/black-forest-labs/flux2?tab=readme-ov-file#flux2-klein)
 
 ### 📡 Remote Text Encoder (H100/H800 Recommended, FLUX.2 only)
 For heavy text encoding workloads, you can offload the text encoder to a separate dedicated GPU (e.g., H100) via a simple FastAPI service. Or refer to the [**Official Guide**](https://github.com/black-forest-labs/flux2/blob/main/docs/flux2_dev_hf.md#remote-text-encoder--h100)

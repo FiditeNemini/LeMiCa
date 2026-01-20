@@ -84,7 +84,7 @@
 
 ## 🔥 Latest News
 
-- [2025/01/20] 🔥 Added support for FLUX.1-dev and FLUX.2-klein in [**LeMiCa4FLUX**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4FLUX)
+- [2025/01/20] 🔥 Added support for FLUX.1-dev and FLUX.2-Klein in [**LeMiCa4FLUX**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4FLUX)
 - [2025/12/15] 🔥 [**ComfyUI-LeMiCa**](https://github.com/UnicomAI/LeMiCa/tree/main/ComfyUI-LeMiCa) has been seamlessly integrated into [**ComfyUI**](https://github.com/comfyanonymous/ComfyUI) and is fully compatible with ComfyUI’s native nodes.
 - [2025/12/08] 🔥 Support [**HunyuanVideo-1.5**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4HunyuanVideo1.5) for both T2V and I2V.
 - [2025/12/02] 🔥 Support [**Z-Image**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4Z-Image) and [**FLUX.2**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4FLUX).
@@ -105,7 +105,7 @@
 </p>
 
 
-### FLUX.2(klein-9B)
+### FLUX.2 [Klein-9B]
 
 | Method              | Flux.2(klein-9B) | LeMiCa-slow         | LeMiCa-medium    | LeMiCa-fast | LeMiCa-ultra   |
 |:-------------------:|:--------------------:|:--------------:|:--------------:|:-------------:|:-------------:|

@@ -117,7 +117,7 @@
 
 | Method   | Qwen-Image-2512 | LeMiCa-slow | LeMiCa-medium | LeMiCa-fast |
 |:-------:|:-------:|:-----------:|:-------------:|:-----------:|
-| **Latency** | 31.42 s  | 16.09 s      | 11.29 s        | 7.01 s      |
+| **Latency** | 32.8 s  | 18.83 s      | 14.35 s        | 10.41 s      |
 | **T2I** | <img width="160" alt="Qwen-Image-2512" src="https://github.com/user-attachments/assets/ae47f0c2-e687-4fc8-bf78-8f9d968feda5" /> | <img width="160" alt="LeMiCa-slow" src="https://github.com/user-attachments/assets/9cc9c647-6650-4294-b8fd-6263c74e20b5" /> | <img width="160" alt="LeMiCa-medium" src="https://github.com/user-attachments/assets/0ff53c58-e1be-4e4f-9574-c6e60cf4e342" /> | <img width="160" alt="LeMiCa-fast" src="https://github.com/user-attachments/assets/220e85ea-17e7-4d86-b9cc-6fdb62049d62" /> |
 
 ### HunyuanVideo1.5

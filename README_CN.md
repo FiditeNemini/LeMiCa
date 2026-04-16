@@ -80,7 +80,8 @@
 
 
 ## 🔥 最近更新
-- [2025/01/29] 🔥 我们最新的工作"MeanCache: From Instantaneous to Average Velocity for Accelerating Flow Matching Inference" 已经被ICLR 2026接收! 代码及详情见：[**MeanCache**](https://github.com/UnicomAI/MeanCache)! MeanCache 在Flux.1、Qwen-Image和HunYuanVideo上分别实现了4.12倍、4.56倍和3.59倍加速比，同时保持了几乎无损的生成质量. 请参考我们的主页与论文获取更多细节. 
+- [2026/04/16] ✨ 支持 [**ERNIE-Image**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4ErnieImage) 文生图推理加速。
+- [2026/01/29] 🔥 我们最新的工作"MeanCache: From Instantaneous to Average Velocity for Accelerating Flow Matching Inference" 已经被ICLR 2026接收! 代码及详情见：[**MeanCache**](https://github.com/UnicomAI/MeanCache)! MeanCache 在Flux.1、Qwen-Image和HunYuanVideo上分别实现了4.12倍、4.56倍和3.59倍加速比，同时保持了几乎无损的生成质量. 请参考我们的主页与论文获取更多细节. 
 - [2025/01/20] 🔥 补充FLUX.1-dev和FLUX.2-klein的支持 [**LeMiCa4FLUX**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4FLUX)
 - [2025/12/15] 🔥 [**ComfyUI-LeMiCa**](https://github.com/UnicomAI/LeMiCa/tree/main/ComfyUI-LeMiCa) 已无缝集成至 [**ComfyUI**](https://github.com/comfyanonymous/ComfyUI)，欢迎体验。
 - [2025/12/08] ✨ 支持 [**HunyuanVideo1.5**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4HunyuanVideo1.5) 文生视频和图生视频。
@@ -101,6 +102,14 @@
 <p align="center">
   <img src="ComfyUI-LeMiCa\assets\ComfyUI.png" alt="ComfyUI-LeMiCa Workflow" width="850"/>
 </p>
+
+
+### ERNIE-Image
+
+| Method   | ERNIE-Image | LeMiCa-slow | LeMiCa-medium | LeMiCa-fast |
+|:-------:|:-----------:|:-----------:|:-------------:|:-----------:|
+| **Latency** | 32.168 s | 16.471 s | 11.432 s | 7.043 s |
+| **T2I** | <img width="160" alt="ERNIE-Image" src="https://github.com/user-attachments/assets/c01d9ef0-df8a-4c7c-bb61-b69d54cfaf9b" /> | <img width="160" alt="LeMiCa-slow" src="https://github.com/user-attachments/assets/25ef5d70-aae9-4664-8e95-59ad5848cb6b" /> | <img width="160" alt="LeMiCa-medium" src="https://github.com/user-attachments/assets/17cf4dfb-4d46-4b87-a8ca-7990064b9252" /> | <img width="160" alt="LeMiCa-fast" src="https://github.com/user-attachments/assets/5790d160-66fe-46a7-a8c4-14c66c6f7888" /> |
 
 
 ### FLUX.2(klein-9B)
@@ -182,6 +191,7 @@ LeMiCa 目前支持并已在以下基于扩散的模型上进行了测试：
 - [HunyuanVideo-1.5](https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5)
   
 **文生图**
+- [ERNIE-Image](https://github.com/PaddlePaddle/ERNIE)  
 - [Qwen-Image](https://github.com/QwenLM/Qwen-Image)  
 - [Z-Image](https://github.com/Tongyi-MAI/Z-Image)  
 - [FLUX.2](https://github.com/black-forest-labs/flux2)  

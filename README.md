@@ -83,8 +83,9 @@
 
 
 ## 🔥 Latest News
-- [2025/01/29] 🔥 Our latest work "MeanCache: From Instantaneous to Average Velocity for Accelerating Flow Matching Inference" is accepted by ICLR 2026! Codes are available at [**MeanCache**](https://github.com/UnicomAI/MeanCache)! MeanCache achieves 4.12×, 4.56×, and 3.59× acceleration on FLUX.1, Qwen-Image, and HunyuanVideo, while consistently outperforming state-of-the-art caching baselines in generation quality. For more details, please refer to our latest research paper. 
-- [2025/01/20] 🔥 Added support for FLUX.1-dev and FLUX.2-Klein in [**LeMiCa4FLUX**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4FLUX)
+- [2026/04/16] ✨ Support [**ERNIE-Image**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4ErnieImage) text-to-image acceleration with LeMiCa.
+- [2026/01/29] 🔥 Our latest work "MeanCache: From Instantaneous to Average Velocity for Accelerating Flow Matching Inference" is accepted by ICLR 2026! Codes are available at [**MeanCache**](https://github.com/UnicomAI/MeanCache)! MeanCache achieves 4.12×, 4.56×, and 3.59× acceleration on FLUX.1, Qwen-Image, and HunyuanVideo, while consistently outperforming state-of-the-art caching baselines in generation quality. For more details, please refer to our latest research paper. 
+- [2026/01/20] 🔥 Added support for FLUX.1-dev and FLUX.2-Klein in [**LeMiCa4FLUX**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4FLUX)
 - [2025/12/15] ✨ [**ComfyUI-LeMiCa**](https://github.com/UnicomAI/LeMiCa/tree/main/ComfyUI-LeMiCa) has been seamlessly integrated into [**ComfyUI**](https://github.com/comfyanonymous/ComfyUI) and is fully compatible with ComfyUI’s native nodes.
 - [2025/12/08] ✨ Support [**HunyuanVideo-1.5**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4HunyuanVideo1.5) for both T2V and I2V.
 - [2025/12/02] ✨ Support [**Z-Image**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4Z-Image) and [**FLUX.2**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4FLUX).
@@ -103,6 +104,14 @@
 <p align="center">
   <img src="ComfyUI-LeMiCa\assets\ComfyUI.png" alt="ComfyUI-LeMiCa Workflow" width="850"/>
 </p>
+
+
+### ERNIE-Image
+
+| Method   | ERNIE-Image | LeMiCa-slow | LeMiCa-medium | LeMiCa-fast |
+|:-------:|:-----------:|:-----------:|:-------------:|:-----------:|
+| **Latency** | 32.168 s | 16.471 s | 11.432 s | 7.043 s |
+| **T2I** | <img width="160" alt="ERNIE-Image" src="https://github.com/user-attachments/assets/c01d9ef0-df8a-4c7c-bb61-b69d54cfaf9b" /> | <img width="160" alt="LeMiCa-slow" src="https://github.com/user-attachments/assets/25ef5d70-aae9-4664-8e95-59ad5848cb6b" /> | <img width="160" alt="LeMiCa-medium" src="https://github.com/user-attachments/assets/17cf4dfb-4d46-4b87-a8ca-7990064b9252" /> | <img width="160" alt="LeMiCa-fast" src="https://github.com/user-attachments/assets/5790d160-66fe-46a7-a8c4-14c66c6f7888" /> |
 
 
 ### FLUX.2 [Klein-9B]
@@ -187,6 +196,7 @@ LeMiCa currently supports and has been tested on the following diffusion-based m
 - [HunyuanVideo-1.5](https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5)
 
 **Text-to-Image**
+- [ERNIE-Image](https://github.com/PaddlePaddle/ERNIE)  
 - [Qwen-Image](https://github.com/QwenLM/Qwen-Image)  
 - [Z-Image](https://github.com/Tongyi-MAI/Z-Image)  
 - [FLUX.2](https://github.com/black-forest-labs/flux2)  

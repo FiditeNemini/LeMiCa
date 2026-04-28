@@ -111,7 +111,7 @@
 | Method   | ERNIE-Image | LeMiCa-slow | LeMiCa-medium | LeMiCa-fast |
 |:-------:|:-----------:|:-----------:|:-------------:|:-----------:|
 | **Latency** | 32.168 s | 16.471 s | 11.432 s | 7.043 s |
-| **T2I** | <img width="160" alt="ERNIE-Image" src="https://github.com/user-attachments/assets/c01d9ef0-df8a-4c7c-bb61-b69d54cfaf9b" /> | <img width="160" alt="LeMiCa-slow" src="https://github.com/user-attachments/assets/25ef5d70-aae9-4664-8e95-59ad5848cb6b" /> | <img width="160" alt="LeMiCa-medium" src="https://github.com/user-attachments/assets/17cf4dfb-4d46-4b87-a8ca-7990064b9252" /> | <img width="160" alt="LeMiCa-fast" src="https://github.com/user-attachments/assets/5790d160-66fe-46a7-a8c4-14c66c6f7888" /> |
+| **T2I** | <img width="160" alt="ERNIE-Image" src="https://github.com/user-attachments/assets/8249ed77-4c7c-41cc-989d-61a595846899" /> | <img width="160" alt="LeMiCa-slow" src="https://github.com/user-attachments/assets/25ef5d70-aae9-4664-8e95-59ad5848cb6b" /> | <img width="160" alt="LeMiCa-medium" src="https://github.com/user-attachments/assets/17cf4dfb-4d46-4b87-a8ca-7990064b9252" /> | <img width="160" alt="LeMiCa-fast" src="https://github.com/user-attachments/assets/5790d160-66fe-46a7-a8c4-14c66c6f7888" /> |
 
 
 ### FLUX.2 [Klein-9B]
